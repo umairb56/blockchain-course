@@ -1,0 +1,10 @@
+const fetch = require('node-fetch');
+const url="https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita";
+
+const fetchTheCocktaildb =async(url)=>
+    const data = await fetch(url)
+    const fetchData=await data.json();
+    console.log(fetchData);
+
+}
+fetchTheCoctaildb(url);
