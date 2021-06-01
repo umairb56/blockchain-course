@@ -1,0 +1,18 @@
+pragma solidity ^0.8.0;
+
+contract controller{
+    
+    uint public age;
+    string public name;
+    
+    
+    function registerUser(uint256 _age, string memory _name) public{
+       
+        
+    }
+    event newUser(address from, address newUser);
+    event newAdmin(address from, address newAdmin);
+    
+    
+    
+}
