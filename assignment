@@ -1,10 +1,11 @@
 pragma solidity ^0.8.0;
 
 contract controller{
+    struct user{
     
-    uint public age;
-    string public name;
-    
+    uint256 age;
+    string  name;
+    }
     
     function registerUser(uint256 _age, string memory _name) public{
        
@@ -12,6 +13,11 @@ contract controller{
     }
     event newUser(address from, address newUser);
     event newAdmin(address from, address newAdmin);
+    
+    
+    function registerAdmin(uint256 _age, string memory _name ) public{
+        require(!user[_user], " user cannot be admin");
+    }
     
     
     
