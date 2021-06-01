@@ -1,0 +1,21 @@
+const obj = { firstName: "umair", LastName: "bandarkar”, 
+
+age: "23", city: "Pune", 
+
+skills: { 
+
+programming: ["Js", "Solidity"1. lib: ["React"} 
+
+} 
+
+const greetUser (user) = { 
+
+ 
+
+const (firstName: Name, LastName: Name, age: a, skills: () user:  console.log( Welcome $(fName) (1.Name));  console.log( Hello, My name is $(fName). I am $(a) years old.")  
+
+ 
+
+greetUser(obj): 
+
+ 
